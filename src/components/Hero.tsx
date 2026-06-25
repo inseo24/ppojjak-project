@@ -1,5 +1,6 @@
 import Image from "next/image";
 import data from "@/data/data.json";
+import Reveal from "@/components/Reveal";
 
 export default function Hero() {
   const { hero, decor } = data;
@@ -22,26 +23,29 @@ export default function Hero() {
         className="pointer-events-none absolute right-[7%] top-[30%] hidden w-20 opacity-90 md:block lg:w-28"
       />
 
-      <p className="max-w-2xl text-lg text-foreground/70 md:text-2xl">
-        {hero.greeting_line1}
-        <br />
-        {hero.greeting_line2}
-      </p>
+      <Reveal>
+        <p className="max-w-2xl text-lg text-foreground/70 md:text-2xl">
+          {hero.greeting_line1}
+          <br />
+          {hero.greeting_line2}
+        </p>
+      </Reveal>
 
-      <h1 className="font-display mt-6 text-7xl font-semibold leading-[0.95] md:text-[10rem]">
-        {hero.name_first}
-        <br />
-        {hero.name_last}
-      </h1>
+      <Reveal delay={100}>
+        <h1 className="font-display mt-6 text-7xl font-semibold leading-[0.95] md:text-[10rem]">
+          {hero.name_first}
+          <br />
+          {hero.name_last}
+        </h1>
+      </Reveal>
 
       <div className="mt-10 flex flex-wrap items-center justify-center gap-2.5 text-sm text-foreground/60">
-        {hero.role_tags.map((tag) => (
-          <span
-            key={tag}
-            className="rounded-full border border-black/10 bg-card px-4 py-1.5"
-          >
-            {tag}
-          </span>
+        {hero.role_tags.map((tag, i) => (
+          <Reveal key={tag} delay={200 + i * 80}>
+            <span className="rounded-full border border-black/10 bg-card px-4 py-1.5">
+              {tag}
+            </span>
+          </Reveal>
         ))}
       </div>
     </section>
