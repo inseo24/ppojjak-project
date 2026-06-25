@@ -48,53 +48,53 @@
       {
         "name_1": "Ruby",
         "tags_1": "Branding, Web design, Development",
-        "image_1": "/images/project-ruby.svg"
+        "image_1": "/images/project-ruby.png"
       },
       {
         "name_2": "Stimulate",
         "tags_2": "Branding, Web design, Illustrations, Development",
-        "image_2": "/images/project-stimulate.svg"
+        "image_2": "/images/project-stimulate.png"
       },
       {
         "name_3": "Caldera",
         "tags_3": "Web design, development",
-        "image_3": "/images/project-caldera.svg"
+        "image_3": "/images/project-caldera.png"
       },
       {
         "name_4": "Reward Point",
         "tags_4": "Web design, Illustrations",
-        "image_4": "/images/project-reward-point.svg"
+        "image_4": "/images/project-reward-point.png"
       },
       {
         "name_5": "Memex",
         "tags_5": "Brand & product refresh, Web design",
-        "image_5": "/images/project-memex.svg"
+        "image_5": "/images/project-memex.png"
       },
       {
         "name_6": "Pix AI",
         "tags_6": "Branding, Illustrations",
         "note_6": "backed in O0 Design team",
-        "image_6": "/images/project-pix-ai.svg"
+        "image_6": "/images/project-pix-ai.png"
       },
       {
         "name_7": "Polpis Systems",
         "tags_7": "Web design, Visual direction",
-        "image_7": "/images/project-polpis.svg"
+        "image_7": "/images/project-polpis.png"
       },
       {
         "name_8": "Quantia",
         "tags_8": "Web design, Visual direction, Illustrations",
-        "image_8": "/images/project-quantia.svg"
+        "image_8": "/images/project-quantia.png"
       },
       {
         "name_9": "Hily",
         "tags_9": "Branding, visual direction",
-        "image_9": "/images/project-hily.svg"
+        "image_9": "/images/project-hily.png"
       },
       {
         "name_10": "Deepengine",
         "tags_10": "created with Heartbeat team",
-        "image_10": "/images/project-deepengine.svg"
+        "image_10": "/images/project-deepengine.png"
       }
     ]
   },
@@ -113,7 +113,7 @@
     "bio_paragraph_3": "I partner up with dynamic tech teams reinventing tomorrow, from YC startups to enterprises and bootstrapped guys.",
     "mission_statement": "My mission: to craft unique, consistent, mature identities for SaaS and Web3 products, boosting user engagement, investor confidence, revenue, and industry respect — a design others will benchmark.",
     "partner_statement": "I partner up with dynamic founders reinventing tomorrow, from YC startups to enterprises and bootstrapped guys.",
-    "portrait_image": "/images/portrait.svg"
+    "portrait_image": "/images/portrait.png"
   },
   "collab": {
     "heading": "What my perfect collab looks like",
@@ -126,5 +126,13 @@
   },
   "footer": {
     "copyright_text": "Daniel Sun © 2026"
+  },
+  "decor": {
+    "note_services": "/images/note-services.png",
+    "sunburst": "/images/deco-sunburst.png",
+    "sunflowers": "/images/deco-sunflowers.png",
+    "flag": "/images/deco-flag.png",
+    "graffiti_1": "/images/deco-graffiti-1.png",
+    "graffiti_2": "/images/deco-graffiti-2.png"
   }
 }
