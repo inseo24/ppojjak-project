@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+:root {
+  /* Light theme — matches danielsun.space (#f5f5f5 page, white cards) */
+  --background: #f5f5f5;
+  --foreground: #0a0a0a;
+  --muted: rgba(0, 0, 0, 0.5);
+  --muted-soft: rgba(0, 0, 0, 0.35);
+  --card: #ffffff;
+  --accent: #0099ff; /* the bright blue link/accent color */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-muted-soft: var(--muted-soft);
+  --color-card: var(--card);
+  --color-accent: var(--accent);
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-inter-tight);
+  --font-hand: var(--font-caveat);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), Inter, Arial, Helvetica, sans-serif;
+}
+
+/* Display headings use Inter Tight, tight tracking like the original */
+.font-display {
+  font-family: var(--font-inter-tight), Inter, sans-serif;
+  letter-spacing: -0.02em;
+}
+
+/* Handwritten accent */
+.font-hand {
+  font-family: var(--font-caveat), cursive;
+}
+
+/* Scroll-triggered fade-up reveal, matching the Framer "Appear" pattern on danielsun.space */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}

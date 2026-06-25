@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "site_title": "Daniel Sun | Top-tier Web and Brand Design partner for SaaS and Web3",
+    "site_description": "Create a brand or product website you'll be finally proud of. Trusted by Y-Combinator founders in fintech, e-commerce, and Web3."
+  },
+  "nav": {
+    "menu_label": "Menu",
+    "start_project_label": "Start project",
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Story",
+        "href": "#story"
+      },
+      {
+        "label": "Process",
+        "href": "#process"
+      },
+      {
+        "label": "Insights",
+        "href": "#insights"
+      },
+      {
+        "label": "Social",
+        "href": "#social"
+      }
+    ]
+  },
+  "hero": {
+    "greeting_line1": "Howdy! Meet your trusted design partner,",
+    "greeting_line2": "crafting strong brands for SaaS and Web3.",
+    "name_first": "Daniel",
+    "name_last": "Sun",
+    "role_tags": [
+      "Design",
+      "Youth",
+      "Nerdville"
+    ]
+  },
+  "work": {
+    "section_title": "My latest work",
+    "section_subtitle": "from 2020 'til today",
+    "footer_note": "New cases are on the way, slowly but surely 😅",
+    "projects": [
+      {
+        "name_1": "Ruby",
+        "tags_1": "Branding, Web design, Development",
+        "image_1": "/images/project-ruby.png"
+      },
+      {
+        "name_2": "Stimulate",
+        "tags_2": "Branding, Web design, Illustrations, Development",
+        "image_2": "/images/project-stimulate.png"
+      },
+      {
+        "name_3": "Caldera",
+        "tags_3": "Web design, development",
+        "image_3": "/images/project-caldera.png"
+      },
+      {
+        "name_4": "Reward Point",
+        "tags_4": "Web design, Illustrations",
+        "image_4": "/images/project-reward-point.png"
+      },
+      {
+        "name_5": "Memex",
+        "tags_5": "Brand & product refresh, Web design",
+        "image_5": "/images/project-memex.png"
+      },
+      {
+        "name_6": "Pix AI",
+        "tags_6": "Branding, Illustrations",
+        "note_6": "backed in O0 Design team",
+        "image_6": "/images/project-pix-ai.png"
+      },
+      {
+        "name_7": "Polpis Systems",
+        "tags_7": "Web design, Visual direction",
+        "image_7": "/images/project-polpis.png"
+      },
+      {
+        "name_8": "Quantia",
+        "tags_8": "Web design, Visual direction, Illustrations",
+        "image_8": "/images/project-quantia.png"
+      },
+      {
+        "name_9": "Hily",
+        "tags_9": "Branding, visual direction",
+        "image_9": "/images/project-hily.png"
+      },
+      {
+        "name_10": "Deepengine",
+        "tags_10": "created with Heartbeat team",
+        "image_10": "/images/project-deepengine.png"
+      }
+    ]
+  },
+  "story": {
+    "section_title": "Every experience in my life is important and has taught me a lot",
+    "logos": [
+      "Halo Lab",
+      "Heartbeat",
+      "Ooze",
+      "O0 design",
+      "Clerk"
+    ],
+    "secrets_line": "I don't have dark secrets, only bright ones",
+    "bio_paragraph_1": "Growing up in Ukraine, my journey into design started… on the streets =) As a teen, art and graffiti sparked my visual storytelling passion, architecture degree gave me foundation, and digital design showed new creative depths.",
+    "bio_paragraph_2": "Five years later, my wife and I moved to Porto. Here, with the ocean breeze, I craft web and brand solutions for tech companies to shine.",
+    "bio_paragraph_3": "I partner up with dynamic tech teams reinventing tomorrow, from YC startups to enterprises and bootstrapped guys.",
+    "mission_statement": "My mission: to craft unique, consistent, mature identities for SaaS and Web3 products, boosting user engagement, investor confidence, revenue, and industry respect — a design others will benchmark.",
+    "partner_statement": "I partner up with dynamic founders reinventing tomorrow, from YC startups to enterprises and bootstrapped guys.",
+    "portrait_image": "/images/portrait.png"
+  },
+  "collab": {
+    "heading": "What my perfect collab looks like",
+    "cta_hint": "Tap this 'tiny' button to highlight your product =)",
+    "cta_button_label": "Connect"
+  },
+  "contact": {
+    "email": "hello@danielsun.space",
+    "heading": "Start project"
+  },
+  "footer": {
+    "copyright_text": "Daniel Sun © 2026"
+  },
+  "decor": {
+    "note_services": "/images/note-services.png",
+    "sunburst": "/images/deco-sunburst.png",
+    "sunflowers": "/images/deco-sunflowers.png",
+    "flag": "/images/deco-flag.png",
+    "graffiti_1": "/images/deco-graffiti-1.png",
+    "graffiti_2": "/images/deco-graffiti-2.png"
+  }
+}
