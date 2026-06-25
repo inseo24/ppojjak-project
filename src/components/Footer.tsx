@@ -1,5 +1,6 @@
 import data from "@/data/data.json";
 import Reveal from "@/components/Reveal";
+import { fadeUpSmall } from "@/lib/motion";
 
 export default function Footer() {
   const { contact, footer } = data;
@@ -12,10 +13,10 @@ export default function Footer() {
       <Reveal>
         <p className="font-hand text-2xl text-accent">{contact.heading}</p>
       </Reveal>
-      <Reveal delay={100}>
+      <Reveal variants={fadeUpSmall} delay={100}>
         <a
           href={`mailto:${contact.email}`}
-          className="font-display text-4xl font-semibold transition-colors hover:text-accent md:text-6xl"
+          className="footer-link font-display text-4xl font-semibold md:text-6xl"
         >
           {contact.email}
         </a>

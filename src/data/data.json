@@ -1,7 +1,7 @@
 {
   "meta": {
-    "site_title": "Daniel Sun | Top-tier Web and Brand Design partner for SaaS and Web3",
-    "site_description": "Create a brand or product website you'll be finally proud of. Trusted by Y-Combinator founders in fintech, e-commerce, and Web3."
+    "site_title": "Jordan Lake | Independent product design partner for SaaS and Web3",
+    "site_description": "A small studio helping founders ship a brand and product site they're actually proud of."
   },
   "nav": {
     "menu_label": "Menu",
@@ -30,102 +30,102 @@
     ]
   },
   "hero": {
-    "greeting_line1": "Howdy! Meet your trusted design partner,",
-    "greeting_line2": "crafting strong brands for SaaS and Web3.",
-    "name_first": "Daniel",
-    "name_last": "Sun",
+    "greeting_line1": "Hey there! This is your independent design partner,",
+    "greeting_line2": "building sharp brands for SaaS and Web3 teams.",
+    "name_first": "Jordan",
+    "name_last": "Lake",
     "role_tags": [
       "Design",
-      "Youth",
-      "Nerdville"
+      "Code",
+      "Sidequests"
     ]
   },
   "work": {
-    "section_title": "My latest work",
-    "section_subtitle": "from 2020 'til today",
-    "footer_note": "New cases are on the way, slowly but surely 😅",
+    "section_title": "Recent builds",
+    "section_subtitle": "from 2020 to now",
+    "footer_note": "A few more cases are brewing 😅",
     "projects": [
       {
-        "name_1": "Ruby",
+        "name_1": "Lumen",
         "tags_1": "Branding, Web design, Development",
         "image_1": "/images/project-ruby.png"
       },
       {
-        "name_2": "Stimulate",
+        "name_2": "Pulsewave",
         "tags_2": "Branding, Web design, Illustrations, Development",
         "image_2": "/images/project-stimulate.png"
       },
       {
-        "name_3": "Caldera",
+        "name_3": "Driftline",
         "tags_3": "Web design, development",
         "image_3": "/images/project-caldera.png"
       },
       {
-        "name_4": "Reward Point",
+        "name_4": "Pointgrid",
         "tags_4": "Web design, Illustrations",
         "image_4": "/images/project-reward-point.png"
       },
       {
-        "name_5": "Memex",
+        "name_5": "Archive Labs",
         "tags_5": "Brand & product refresh, Web design",
         "image_5": "/images/project-memex.png"
       },
       {
-        "name_6": "Pix AI",
+        "name_6": "Pixframe",
         "tags_6": "Branding, Illustrations",
-        "note_6": "backed in O0 Design team",
+        "note_6": "built with the Northline design team",
         "image_6": "/images/project-pix-ai.png"
       },
       {
-        "name_7": "Polpis Systems",
+        "name_7": "Polestar Systems",
         "tags_7": "Web design, Visual direction",
         "image_7": "/images/project-polpis.png"
       },
       {
-        "name_8": "Quantia",
+        "name_8": "Quanta",
         "tags_8": "Web design, Visual direction, Illustrations",
         "image_8": "/images/project-quantia.png"
       },
       {
-        "name_9": "Hily",
+        "name_9": "Hivelight",
         "tags_9": "Branding, visual direction",
         "image_9": "/images/project-hily.png"
       },
       {
-        "name_10": "Deepengine",
-        "tags_10": "created with Heartbeat team",
+        "name_10": "Coreflow",
+        "tags_10": "created with the Heartbeam team",
         "image_10": "/images/project-deepengine.png"
       }
     ]
   },
   "story": {
-    "section_title": "Every experience in my life is important and has taught me a lot",
+    "section_title": "Every detour along the way ended up teaching me something",
     "logos": [
-      "Halo Lab",
-      "Heartbeat",
-      "Ooze",
-      "O0 design",
-      "Clerk"
+      "Northline",
+      "Heartbeam",
+      "Driftworks",
+      "Studio Quanta",
+      "Ledger Co"
     ],
-    "secrets_line": "I don't have dark secrets, only bright ones",
-    "bio_paragraph_1": "Growing up in Ukraine, my journey into design started… on the streets =) As a teen, art and graffiti sparked my visual storytelling passion, architecture degree gave me foundation, and digital design showed new creative depths.",
-    "bio_paragraph_2": "Five years later, my wife and I moved to Porto. Here, with the ocean breeze, I craft web and brand solutions for tech companies to shine.",
-    "bio_paragraph_3": "I partner up with dynamic tech teams reinventing tomorrow, from YC startups to enterprises and bootstrapped guys.",
-    "mission_statement": "My mission: to craft unique, consistent, mature identities for SaaS and Web3 products, boosting user engagement, investor confidence, revenue, and industry respect — a design others will benchmark.",
-    "partner_statement": "I partner up with dynamic founders reinventing tomorrow, from YC startups to enterprises and bootstrapped guys.",
+    "secrets_line": "No dark secrets here, just a lot of bright ones",
+    "bio_paragraph_1": "I started out sketching shopfronts and skate graphics before I ever touched a computer, which is probably why I still think about layout the way a sign painter does. An architecture degree gave me structure; screens gave me a faster feedback loop.",
+    "bio_paragraph_2": "These days I work out of a small studio near the coast, building web and brand systems for teams who'd rather ship something sharp than something safe.",
+    "bio_paragraph_3": "I partner with builders pushing on something new — early-stage founders, lean in-house teams, and the occasional bootstrapped crew.",
+    "mission_statement": "The goal: identities that hold up under scrutiny — consistent enough to scale, distinct enough to remember, and built to earn trust from day one.",
+    "partner_statement": "I like working with people who move fast and still care about the details no one else notices.",
     "portrait_image": "/images/portrait.png"
   },
   "collab": {
-    "heading": "What my perfect collab looks like",
-    "cta_hint": "Tap this 'tiny' button to highlight your product =)",
+    "heading": "Here's what a good collab looks like",
+    "cta_hint": "Hit this button if you've got something worth building =)",
     "cta_button_label": "Connect"
   },
   "contact": {
-    "email": "hello@danielsun.space",
-    "heading": "Start project"
+    "email": "hello@jordanlake.dev",
+    "heading": "Start a project"
   },
   "footer": {
-    "copyright_text": "Daniel Sun © 2026"
+    "copyright_text": "Jordan Lake © 2026"
   },
   "decor": {
     "note_services": "/images/note-services.png",

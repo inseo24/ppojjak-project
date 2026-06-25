@@ -1,12 +1,13 @@
 import Image from "next/image";
 import data from "@/data/data.json";
 import Reveal from "@/components/Reveal";
+import { cardEntrance } from "@/lib/motion";
 
 export default function Work() {
   const { work } = data;
 
   return (
-    <section id="work" className="px-6 py-28 md:px-10">
+    <section id="work" className="section">
       <Reveal>
         <div className="mb-14 flex flex-col items-baseline justify-between gap-2 md:flex-row">
           <h2 className="font-display text-4xl font-semibold md:text-6xl">
@@ -28,14 +29,14 @@ export default function Work() {
           const image = record[`image_${n}`];
 
           return (
-            <Reveal key={name} delay={i * 100}>
-              <article className="group">
-                <div className="relative aspect-[4/3] overflow-hidden rounded-3xl border border-black/5 bg-card">
+            <Reveal key={name} variants={cardEntrance} delay={i * 80}>
+              <article className="project-card rounded-3xl bg-card p-4">
+                <div className="preview relative aspect-[4/3] overflow-hidden rounded-2xl border border-black/5">
                   <Image
                     src={image}
                     alt={name}
                     fill
-                    className="object-cover transition-transform duration-500 ease-out group-hover:scale-[1.06]"
+                    className="object-cover"
                     sizes="(max-width: 768px) 100vw, 50vw"
                   />
                 </div>
