@@ -19,9 +19,14 @@ npm install
 npm run dev
 ```
 
-### Vercel 배포
+### Vercel 배포 (main 머지 시 자동 배포)
 
-1. https://vercel.com 에서 GitHub로 로그인 후 "Add New Project"
-2. `inseo24/ppojjak-project` 저장소 선택, Import
-3. Framework Preset: Next.js (자동 감지), 기본 설정 그대로 Deploy
-4. 이후 이 브랜치/main에 push할 때마다 자동으로 재배포됩니다 (Vercel Git 연동)
+GitHub 연동을 한 번 해두면, **`main`에 머지될 때마다 프로덕션(라이브) 사이트가 자동 재배포**됩니다.
+
+1. https://vercel.com 에서 GitHub로 로그인 후 **"Add New… → Project"**
+2. `inseo24/ppojjak-project` 저장소 선택, **Import**
+3. Framework Preset: **Next.js** (자동 감지). Production Branch는 기본값 `main` 그대로 두고 **Deploy**
+4. 이후 동작:
+   - **`main` 업데이트(= PR 머지) → 프로덕션 배포** (라이브 URL 갱신)
+   - 그 외 브랜치/PR push → **프리뷰 배포** (별도 임시 URL, 라이브에는 영향 없음)
+   - 프리뷰가 필요 없으면 Vercel 프로젝트 **Settings → Git**에서 브랜치별 배포를 끌 수 있습니다.
