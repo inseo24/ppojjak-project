@@ -1,12 +1,13 @@
 import Image from "next/image";
 import data from "@/data/data.json";
 import Reveal from "@/components/Reveal";
+import { fadeUpSmall, fadeUpTilt } from "@/lib/motion";
 
 export default function Story() {
   const { story, decor } = data;
 
   return (
-    <section id="story" className="px-6 py-28 md:px-10">
+    <section id="story" className="section">
       <Reveal>
         <h2 className="font-display max-w-4xl text-3xl font-semibold leading-tight md:text-5xl">
           {story.section_title}
@@ -15,18 +16,18 @@ export default function Story() {
 
       <div className="mt-10 flex flex-wrap items-center gap-x-10 gap-y-3 text-muted">
         {story.logos.map((logo, i) => (
-          <Reveal key={logo} delay={i * 70}>
+          <Reveal key={logo} variants={fadeUpSmall} delay={i * 70}>
             <span className="text-sm font-medium uppercase tracking-wide">{logo}</span>
           </Reveal>
         ))}
       </div>
 
       <div className="mt-16 grid grid-cols-1 gap-12 md:grid-cols-2 md:items-start">
-        <Reveal className="relative">
+        <Reveal variants={fadeUpTilt} className="relative">
           <div className="relative aspect-[3/4] overflow-hidden rounded-3xl border border-black/5 bg-card">
             <Image
               src={story.portrait_image}
-              alt="Daniel Sun portrait"
+              alt="Studio portrait"
               fill
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 50vw"
